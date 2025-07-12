@@ -23,6 +23,9 @@ public class Calculator{
     public int multiply(Calculator op2){
         return operand1 * op2.operand1;
     }
-        
+    public String toString(){
+        return "" + operand1;
+    }
+     
     
 }
